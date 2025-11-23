@@ -1,7 +1,6 @@
 media:
-  label: "Media (Blog)"
-  input: public
-  output: /
+  - { name: media-portfolio, label: "Media (Portfolio)", input: files/media, output: /media }
+  - { name: media-blog, label: "Media (Blog)", input: files/media, output: /media }
 content:
   - name: posts
     label: Posts
