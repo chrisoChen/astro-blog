@@ -24,7 +24,7 @@ content:
     type: file
     path: src/pages/about.md
     fields:
-        - { name: tags, label: Tags, type: string, list: true }
+      - { name: tags, label: Tags, type: string, list: true }
       - { name: title, label: Title, type: string, required: true }
       - { name: layout, type: string, hidden: true, default: "../layouts/AboutLayout.astro" }
       - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
