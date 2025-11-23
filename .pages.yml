@@ -1,4 +1,5 @@
 media:
+  label: "Media Tings"
   input: public
   output: /
 content:
